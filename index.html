@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Prosta lista zadań MVC</title>
+  <link rel="stylesheet" type="text/css" href= "css/style.css">
+</head>
+	<body>
+    <section id="toDoApp">
+      <header id="appHeader">
+        <h1>Lista zadań</h1>
+      </header>
+      <section id="main">
+        <input type="text" name="newtodo" id="newtodo" placeholder="Dodaj element do listy..." /> <button id="addButton">Dopisz</Button>
+        <ul id = "list"></ul>
+      </section>
+    </section>
+    <footer id="info">
+          Wszystkie zadania: <span id="totalTasks" class="number">0</span><br/>
+          Wykonane zadania: <span id="doneTasks" class="number">0</span><br/>
+    </footer>
+
+<script src="js/ee.js"></script>
+<script src="js/utils.js"></script>
+<script src="js/view.js"></script>
+<script src="js/controller.js"></script>
+<script src="js/model.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+</html>
